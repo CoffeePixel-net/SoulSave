@@ -1,0 +1,22 @@
+discs:
+  reach:
+    name: "&bMusic Disc – Reach"
+    base-material: "MUSIC_DISC_CAT"
+    model-data: 3001.0
+    sound: "minecraft:music_disc.reach"   # <- add this line
+    lore:
+      - "&7A rare disc only dropped when"
+      - "&7a Wither kills a Cat."
+
+swords:
+  soulsave:
+    name: "&5SoulSave"
+    base-material: "GOLDEN_SWORD"
+    model-data: 4001.0
+    cooldown-seconds: 40
+    lore:
+      - "&eSacrifice &c5 hearts"
+      - "&aGrants &cStrength III"
+      - ""
+      - "&eRight-click Ability"
+      - "&cCooldown: %cooldown%s"

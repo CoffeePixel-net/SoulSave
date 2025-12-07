@@ -1,0 +1,17 @@
+name: CustomDiscPlugin
+main: me.cheese.customdisc.CustomDiscPlugin
+version: '1.9'
+api-version: '1.20'
+author: outerspacepugyt
+website: coffeepixel.net
+
+commands:
+  givedisc:
+    description: Gives the Reach music disc.
+    permission: customdisc.givedisc
+    permission-message: "&cYou do not have permission to use this command!"
+
+permissions:
+  customdisc.givedisc:
+    description: Allows a player to use /givedisc
+    default: op
